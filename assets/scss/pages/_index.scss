@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#headerBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    background-color: transparent;
+    z-index: 100;
+    .firstConatiner{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       .dealersBox{
+        h1{
+            display: flex;
+           letter-spacing: 5px;
+           font-family: "Rubik Mono One";
+           font-weight: 400;
+        }
+       }
+       .icons{
+        display: flex;
+        gap: 30px;
+        font-size: 15px;
+       }
+        nav ul{
+            display: flex;
+            gap: 100px;
+            li{
+                list-style-type: none;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+#firstSection {
+    display: flex;
+    justify-content: center;
+    background-color: #F9F9F9;
+
+    .secondContainer {
+        width: 60%;
+
+        .text {
+            .btn{ 
+                border-radius: 2px solid #0068F9;
+                .shoping{
+                    background-color: #0068F9;
+                }
+
+
+            } 
+           button{
+            height: 45px;
+            width: 110px;
+            font-family: "Rubik";       
+        }
+            p{
+                font-size: 20px;
+                font-family: "Rubik";
+            }
+            span{
+                font-size: 18px;
+                font-family: "Rubik";
+            }
+
+            h2 {
+                font-size: 64px;
+                letter-spacing: 4px;
+                font-family: "Rubik";
+                font-weight: 600;
+            }
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .imgsec img {
+            width: 529px;
+            height: 688px;
+            position: relative;
+
+        }
+    }
+
+}
+#seconSection{
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid#EEEEEE;
+   
+    .collContainer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        .collections{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 70px;
+            border-right: 2px solid #EEEEEE;
+            .textBox{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                font-family: "Rubik";
+                h4{
+                    font-size: 30px;
+                    font-weight: 400;
+                }
+                span{
+                    font-size: 30px;
+                }
+
+            }
+            img{
+                height: 800px;
+            }
+        }
+
+       
+    }
+}

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headerBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: transparent;
+  z-index: 100;
+}
+#headerBox .firstConatiner {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#headerBox .firstConatiner .dealersBox h1 {
+  display: flex;
+  letter-spacing: 5px;
+  font-family: "Rubik Mono One";
+  font-weight: 400;
+}
+#headerBox .firstConatiner .icons {
+  display: flex;
+  gap: 30px;
+  font-size: 15px;
+}
+#headerBox .firstConatiner nav ul {
+  display: flex;
+  gap: 100px;
+}
+#headerBox .firstConatiner nav ul li {
+  list-style-type: none;
+}
+#headerBox .firstConatiner nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#firstSection {
+  display: flex;
+  justify-content: center;
+  background-color: #F9F9F9;
+}
+#firstSection .secondContainer {
+  width: 60%;
+}
+#firstSection .secondContainer .text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#firstSection .secondContainer .text .btn {
+  border-radius: 2px solid #0068F9;
+}
+#firstSection .secondContainer .text .btn .shoping {
+  background-color: #0068F9;
+}
+#firstSection .secondContainer .text button {
+  height: 45px;
+  width: 110px;
+  font-family: "Rubik";
+}
+#firstSection .secondContainer .text p {
+  font-size: 20px;
+  font-family: "Rubik";
+}
+#firstSection .secondContainer .text span {
+  font-size: 18px;
+  font-family: "Rubik";
+}
+#firstSection .secondContainer .text h2 {
+  font-size: 64px;
+  letter-spacing: 4px;
+  font-family: "Rubik";
+  font-weight: 600;
+}
+#firstSection .secondContainer .imgsec img {
+  width: 529px;
+  height: 688px;
+  position: relative;
+}
+
+#seconSection {
+  width: 100%;
+  display: flex;
+  border-bottom: 2px solid #EEEEEE;
+}
+#seconSection .collContainer {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#seconSection .collContainer .collections {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 70px;
+  border-right: 2px solid #EEEEEE;
+}
+#seconSection .collContainer .collections .textBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Rubik";
+}
+#seconSection .collContainer .collections .textBox h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+#seconSection .collContainer .collections .textBox span {
+  font-size: 30px;
+}
+#seconSection .collContainer .collections img {
+  height: 800px;
+}
